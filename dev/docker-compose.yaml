@@ -7,3 +7,4 @@ services:
       - "1313:1313"
     volumes:
       - ../:/home/tanner/code/
+      - ~/.ssh/:/home/tanner/.ssh/
