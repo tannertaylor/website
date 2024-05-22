@@ -1,0 +1,9 @@
+services:
+  website-dev:
+    build: .
+    tty: true
+    stdin_open: true
+    ports:
+      - "1313:1313"
+    volumes:
+      - ../:/home/tanner/code/
